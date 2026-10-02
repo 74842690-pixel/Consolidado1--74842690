@@ -37,7 +37,6 @@ class CuentaBancaria:
             f"Saldo: S/ {self.__saldo:.2f}"
         )
 
-
 # CUENTA DE AHORROS
 
 class CuentaAhorros(CuentaBancaria):
@@ -56,7 +55,6 @@ class CuentaAhorros(CuentaBancaria):
             f"Tasa de interés: {self.tasa_interes}%\n"
             f"Interés anual: S/ {self.calcular_interes():.2f}"
         )
-
 
 # CUENTA CORRIENTE
 
@@ -161,7 +159,6 @@ print(
     f"¿Permite sobregiro?: "
     f"{cuenta_corriente.permite_sobregiro()}"
 )
-
 
 
 # PRUEBA DE VALIDACIÓN
